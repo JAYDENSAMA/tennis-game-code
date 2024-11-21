@@ -14,6 +14,7 @@ The objective is to keep the ball in play by hitting it back and forth between t
 
 This documentation provides a detailed overview of each script and highlights the technologies and concepts used to make this game functional and engaging.
 # GAME SCRIPTS:
+To know the script locationgo to Assets/script
 # 1. Movement Script:
 ## Purpose:
 
