@@ -24,6 +24,10 @@ Lets the player control an aim target and hit the ball using the "F" key.
 
 Differentiates between moving and hitting states (hitting flag).
 
+# Core Functionality:
+
+![Screenshot 2024-11-21 063650](https://github.com/user-attachments/assets/9cd45a35-c4e9-4479-995e-6497a4e0f1ba)
+
 
 
 
