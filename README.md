@@ -87,6 +87,48 @@ Required assets (models, animations, and prefabs) imported and configured.
 
 All necessary scripts already attached to the respective GameObjects.
 
+# 2. How to Run the Game
+
+##Open the Unity Project:
+
+Launch Unity Hub and open the project containing the scripts.
+### Scene Setup:
+
+Ensure the scene contains the following GameObjects:
+### Player: With the Movement script attached.
+### Bot: With the Bot script attached.
+### Ball: With the Ball script attached.
+### Court and Walls: Properly set up for gameplay boundaries.
+
+##Script Configuration:
+
+All script fields (e.g., ball, aimTarget, targets) should already be assigned in the Inspector.
+
+Confirm that the ball and wall objects are tagged correctly:
+
+Ball tagged as "ball".
+
+Walls tagged as "wall".
+
+Physics and Animations:
+
+
+Ensure all GameObjects have the required Colliders and Rigidbody components.
+
+Confirm animations are linked and referenced in the Animator Controllers for both the Player and the Bot.
+
+##Run the Game:
+
+Press the Play button in Unity's Editor.
+
+Use the controls to move the player:
+
+Arrow Keys/WASD: Move the player.
+
+F Key: Aim and hit the ball.
+
+Watch the bot automatically respond to the ball and return it.
+
 
 
 
