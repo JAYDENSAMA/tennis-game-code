@@ -28,6 +28,21 @@ Differentiates between moving and hitting states (hitting flag).
 
 ![Screenshot 2024-11-21 063650](https://github.com/user-attachments/assets/9cd45a35-c4e9-4479-995e-6497a4e0f1ba)
 
+# 2. Bot Script:
+# Purpose: 
+Implements AI for the bot to move and hit the ball back to the player.
+
+# Key Features:
+
+Moves left and right along the court based on the ball's position (Move function).
+
+Randomly picks a target to aim at when hitting the ball back.
+
+Applies force to the ball to send it towards a selected target.
+
+Plays animations for hitting actions.
+
+
 
 
 
