@@ -100,7 +100,7 @@ Ensure the scene contains the following GameObjects:
 ### Ball: With the Ball script attached.
 ### Court and Walls: Properly set up for gameplay boundaries.
 
-##Script Configuration:
+## Script Configuration:
 
 All script fields (e.g., ball, aimTarget, targets) should already be assigned in the Inspector.
 
@@ -117,7 +117,7 @@ Ensure all GameObjects have the required Colliders and Rigidbody components.
 
 Confirm animations are linked and referenced in the Animator Controllers for both the Player and the Bot.
 
-##Run the Game:
+## Run the Game:
 
 Press the Play button in Unity's Editor.
 
