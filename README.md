@@ -45,16 +45,6 @@ Plays animations for hitting actions.
 # Core Functionality:
 ![2](https://github.com/user-attachments/assets/49f5cc6d-ec06-4e41-8a46-35c7a5d67c3b)
 
-csharp
-if (hitting)
-{
-    aimTarget.Translate(new Vector3(h, 0, 0) * speed * 2 * Time.deltaTime);
-}
-else
-{
-    transform.Translate(new Vector3(h, 0, v) * speed * Time.deltaTime);
-}
-
 
 
 
