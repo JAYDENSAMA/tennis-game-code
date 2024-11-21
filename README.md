@@ -45,6 +45,22 @@ Plays animations for hitting actions.
 # Core Functionality:
 ![2](https://github.com/user-attachments/assets/49f5cc6d-ec06-4e41-8a46-35c7a5d67c3b)
 
+# 1. Ball Script
+
+##Purpose:
+
+Manages the ball's behavior and ensures it resets when out of play.
+
+##Key Features:
+
+Stores the ball's initial position (initialPos) at the start.
+
+Detects collision with the wall using OnCollisionEnter.
+
+Resets the ball's velocity and position upon collision with a tagged "wall".
+
+
+
 
 
 
