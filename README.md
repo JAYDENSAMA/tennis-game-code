@@ -24,8 +24,6 @@ Lets the player control an aim target and hit the ball using the "F" key.
 
 Differentiates between moving and hitting states (hitting flag).
 
-# Core Functionality:
-
 if (hitting)
 {
     aimTarget.Translate(new Vector3(h, 0, 0) * speed * 2 * Time.deltaTime);
