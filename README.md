@@ -60,6 +60,7 @@ Detects collision with the wall using OnCollisionEnter.
 Resets the ball's velocity and position upon collision with a tagged "wall".
 
 ## Core Functionality:
+![Screenshot 2024-11-21 065949](https://github.com/user-attachments/assets/936dda5a-f922-4644-ac01-ec0291907dea)
 
 
 
