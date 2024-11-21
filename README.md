@@ -43,6 +43,7 @@ Applies force to the ball to send it towards a selected target.
 Plays animations for hitting actions.
 
 # Core Functionality:
+![2](https://github.com/user-attachments/assets/49f5cc6d-ec06-4e41-8a46-35c7a5d67c3b)
 
 
 
