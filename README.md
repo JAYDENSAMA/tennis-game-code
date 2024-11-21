@@ -131,6 +131,7 @@ Watch the bot automatically respond to the ball and return it.
 
 # IAMGES
 ![tpose](https://github.com/user-attachments/assets/724f923e-0e8f-4512-bca0-421db1bf6662)
+![tpose3](https://github.com/user-attachments/assets/2bf58437-d620-4d2d-8fbe-35e965f39117)
 
 
 
