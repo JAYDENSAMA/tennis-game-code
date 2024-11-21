@@ -14,7 +14,6 @@ This documentation provides a detailed overview of each script and highlights th
 3. Movement Script
 Purpose
 Handles player-controlled movement and targeting in the game.
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
