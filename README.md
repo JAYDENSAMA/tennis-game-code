@@ -135,6 +135,10 @@ The provided tennis game project demonstrates the use of Unity's physics, animat
 This project is a great foundation for further development, allowing for enhancements like improved AI logic, multiplayer support, and additional gameplay features. With the setup complete, you are ready to explore, play, and expand the game to new heights!
 
 
+# NOTE:
+IF THE WANT TO PLAY THE GAME WITHOUT DOWNLOADING UNITY HUB YOU CAN DIRECTLY DOWNLOADE  THE GAME FROM THE LINK BELOW 
+https://github.com/JAYDENSAMA/TENNIS-GAME
+
 
 
 
