@@ -89,7 +89,7 @@ All necessary scripts already attached to the respective GameObjects.
 
 # 2. How to Run the Game
 
-##Open the Unity Project:
+## Open the Unity Project:
 
 Launch Unity Hub and open the project containing the scripts.
 ### Scene Setup:
