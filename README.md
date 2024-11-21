@@ -74,6 +74,19 @@ Input System: Captures player inputs for movement and hitting.
 
 Tagging: Identifies specific objects like "ball" and "wall" for interactions.
 
+# 1. Prerequisites
+Unity installed on your system.
+
+A fully set up Unity project with the following:
+
+    Proper hierarchy and game objects:
+
+      Player, Bot, Ball, Court, and Walls are already present.
+
+Required assets (models, animations, and prefabs) imported and configured.
+
+All necessary scripts already attached to the respective GameObjects.
+
 
 
 
