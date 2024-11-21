@@ -11,11 +11,30 @@ The objective is to keep the ball in play by hitting it back and forth between t
 
 This documentation provides a detailed overview of each script and highlights the technologies and concepts used to make this game functional and engaging.
 # GAME SCRIPTS:
-1. Movement Script
-Purpose
-Handles player-controlled movement and targeting in the game.
-Purpose: Controls the player's movement and hitting mechanics.
-Key Features:
+# 1. Movement Script:
+# Purpose:
+
+Controls the player's movement and hitting mechanics.
+
+# Key Features:
+
 Allows the player to move in all directions using Input.GetAxisRaw.
+
 Lets the player control an aim target and hit the ball using the "F" key.
+
 Differentiates between moving and hitting states (hitting flag).
+
+# Core Functionality:
+
+if (hitting)
+{
+    aimTarget.Translate(new Vector3(h, 0, 0) * speed * 2 * Time.deltaTime);
+}
+else
+{
+    transform.Translate(new Vector3(h, 0, v) * speed * Time.deltaTime);
+}
+
+
+
+
