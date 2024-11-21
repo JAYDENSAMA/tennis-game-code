@@ -14,3 +14,8 @@ This documentation provides a detailed overview of each script and highlights th
 1. Movement Script
 Purpose
 Handles player-controlled movement and targeting in the game.
+Purpose: Controls the player's movement and hitting mechanics.
+Key Features:
+Allows the player to move in all directions using Input.GetAxisRaw.
+Lets the player control an aim target and hit the ball using the "F" key.
+Differentiates between moving and hitting states (hitting flag).
