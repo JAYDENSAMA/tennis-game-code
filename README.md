@@ -47,11 +47,11 @@ Plays animations for hitting actions.
 
 # 1. Ball Script
 
-##Purpose:
+## Purpose:
 
 Manages the ball's behavior and ensures it resets when out of play.
 
-##Key Features:
+## Key Features:
 
 Stores the ball's initial position (initialPos) at the start.
 
