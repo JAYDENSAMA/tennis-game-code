@@ -10,3 +10,66 @@ The scripts use Unity's physics engine, animation system, and input handling to 
 The objective is to keep the ball in play by hitting it back and forth between the player and the bot. The player aims to improve their accuracy and timing, while the bot provides a challenging opponent through its calculated movements and randomized targeting.
 
 This documentation provides a detailed overview of each script and highlights the technologies and concepts used to make this game functional and engaging.
+# GAME SCRIPTS:
+3. Movement Script
+Purpose
+Handles player-controlled movement and targeting in the game.
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class movement : MonoBehaviour
+{
+    public Transform aimTarget;
+    float speed = 4f;
+    bool hitting;
+    float force = 13;
+
+    Animator animator;
+    public Transform ball;
+    void Start()
+    {
+       animator = GetComponent<Animator(); 
+    }
+
+    void Update()
+    {
+       float h = Input.GetAxisRaw("Horizontal");
+       float v = Input.GetAxisRaw("Vertical");
+
+       if (Input.GetKeyDown(KeyCode.F)) 
+       {
+           hitting = true;  
+       }
+       else if (Input.GetKeyUp(KeyCode.F))
+       {
+           hitting = false;
+       }
+
+       if (hitting)
+       {
+           aimTarget.Translate(new Vector3(h, 0, 0) * speed * 2 * Time.deltaTime); 
+       }                    
+
+       if ((h != 0 || v != 0) && !hitting)
+       {
+           transform.Translate(new Vector3(h, 0, v) * speed * Time.deltaTime); 
+       }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("ball"))
+        {
+            Vector3 dir = aimTarget.position - transform.position;
+            other.GetComponent<Rigidbody>().velocity = dir.normalized * force + new Vector3(0, 6, 0);
+            animator.Play("New Animation");
+
+            Vector3 ballDir = ball.position - transform.position;
+            if (ballDir.x >= 0)                                    
+            {
+                animator.Play("New Animation");                        
+            }
+        }
+    }
+}
