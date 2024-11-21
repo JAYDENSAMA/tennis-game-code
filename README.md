@@ -62,6 +62,16 @@ Resets the ball's velocity and position upon collision with a tagged "wall".
 ## Core Functionality:
 ![Screenshot 2024-11-21 065949](https://github.com/user-attachments/assets/936dda5a-f922-4644-ac01-ec0291907dea)
 
+# Technologies Used:
+Unity Physics: Manages ball movement and realistic interactions.
+
+Animator: Triggers animations for hitting actions.
+
+Input System: Captures player inputs for movement and hitting.
+
+Tagging: Identifies specific objects like "ball" and "wall" for interactions.
+
+
 
 
 
